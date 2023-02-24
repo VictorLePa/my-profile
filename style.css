@@ -1,0 +1,63 @@
+body {
+	font-family: Helvetica;
+	background-color : rgb(245, 245, 245);
+
+}
+h1 {
+	font-weight : 500;
+	font-size : 40px;
+	text-align: center;
+	text-decoration : underline;
+ }
+a {
+	color : blue;
+	text-decoration : underline;
+	transition: color 0.3s ease;
+ }
+a:hover {
+ 	color : lightskyblue
+
+ }
+h2 {
+	color:green;
+
+}
+
+#photo-moi {
+	border-radius :75%;
+	box-shadow: 0px 6px 6px rgba(0,0,0,0.9)
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
