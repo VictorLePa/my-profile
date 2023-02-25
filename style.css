@@ -43,6 +43,19 @@ ul.myUL {
   padding: 0px 20px; /* add som left/right padding between list items */
 }
 
+.album-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+}
+
+.album-container img {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
